@@ -1,0 +1,43 @@
+.card {
+  height: 580px;
+  width: 330px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #d3d3d3;
+  background-color: #FCFCFC;
+}
+
+h3 {
+  width: 300px;
+  margin: 15px auto 15px auto;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  display: block;
+  margin: 0 auto 15px auto;
+  height: 200px;
+  width: 300px;
+}
+
+.card_content {
+  margin-top: 10px;
+  width: 300px;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  margin: auto;
+  background-color: white;
+}
+.card_content > * {
+  padding: 0 10px 0 10px;
+}
+
+.card_fact {
+  font-size: 1.05em;
+}
+
+.card ul {
+  list-style: none;
+}
